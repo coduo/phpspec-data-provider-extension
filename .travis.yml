@@ -10,5 +10,5 @@ before_script:
     - php composer.phar update
 
 script:
-  - bin/phpspec r -v
-  - bin/behat -v
+  - .bin/phpspec r -v
+  - .bin/behat -v
