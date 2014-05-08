@@ -1,6 +1,6 @@
 <?php
 
-namespace Coduo\PHPSpec\Runner\Maintainer;
+namespace Coduo\PhpSpec\Runner\Maintainer;
 
 use Coduo\PhpSpec\Annotation\Parser;
 use PhpSpec\Loader\Node\ExampleNode;

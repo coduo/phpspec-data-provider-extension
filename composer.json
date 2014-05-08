@@ -23,7 +23,7 @@
         "bossa/phpspec2-expect": "dev-master"
     },
     "autoload": {
-        "psr-0": { "": "src/"}
+        "psr-0": { "Coduo\\PhpSpec": "src/"}
     },
     "config": {
         "bin-dir": "bin"
