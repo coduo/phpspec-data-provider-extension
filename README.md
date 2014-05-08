@@ -1,5 +1,7 @@
 #PhpSpec data provider extension
 
+[![Build Status](https://travis-ci.org/coduo/phpspec-data-provider-extension.svg?branch=master)](https://travis-ci.org/coduo/phpspec-data-provider-extension)
+
 This extension allows you to create data providers for examples in specs.
 
 > At the moment this extension is just a proof of concept, use it at own risk.
