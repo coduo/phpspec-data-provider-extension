@@ -76,7 +76,7 @@ class DataProviderMaintainer implements MaintainerInterface
             return false;
         }
 
-        $subject = $example->getSpecification()->getClassReflection()->newInstanceWithoutConstructor();
+        $subject = $example->getSpecification()->getClassReflection()->newInstance();
         $providedData = $example->getSpecification()->getClassReflection()->getMethod($dataProviderMethod)->invoke($subject);
 
         if (!is_array($providedData)) {
@@ -110,7 +110,7 @@ class DataProviderMaintainer implements MaintainerInterface
             return array();
         }
 
-        $subject = $example->getSpecification()->getClassReflection()->newInstanceWithoutConstructor();
+        $subject = $example->getSpecification()->getClassReflection()->newInstance();
         $providedData = $example->getSpecification()->getClassReflection()->getMethod($dataProviderMethod)->invoke($subject);
 
         return (is_array($providedData)) ? $providedData : array();

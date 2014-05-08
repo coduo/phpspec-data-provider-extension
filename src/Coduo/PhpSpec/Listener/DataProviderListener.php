@@ -29,7 +29,7 @@ class DataProviderListener implements EventSubscriberInterface
                     return false;
                 }
 
-                $subject = $example->getSpecification()->getClassReflection()->newInstanceWithoutConstructor();
+                $subject = $example->getSpecification()->getClassReflection()->newInstance();
                 $providedData = $example->getSpecification()->getClassReflection()->getMethod($dataProviderMethod)->invoke($subject);
 
                 if (is_array($providedData)) {
