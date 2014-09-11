@@ -1,9 +1,9 @@
 <?php
 
-namespace Coduo\PhpSpec;
+namespace Coduo\PhpSpec\DataProvider;
 
-use Coduo\PhpSpec\Listener\DataProviderListener;
-use Coduo\PhpSpec\Runner\Maintainer\DataProviderMaintainer;
+use Coduo\PhpSpec\DataProvider\Listener\DataProviderListener;
+use Coduo\PhpSpec\DataProvider\Runner\Maintainer\DataProviderMaintainer;
 use PhpSpec\Extension\ExtensionInterface;
 use PhpSpec\ServiceContainer;
 

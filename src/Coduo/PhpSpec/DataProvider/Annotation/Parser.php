@@ -1,6 +1,6 @@
 <?php
 
-namespace Coduo\PhpSpec\Annotation;
+namespace Coduo\PhpSpec\DataProvider\Annotation;
 
 class Parser
 {

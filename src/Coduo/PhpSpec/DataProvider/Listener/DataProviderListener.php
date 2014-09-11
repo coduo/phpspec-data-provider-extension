@@ -1,11 +1,11 @@
 <?php
 
-namespace Coduo\PhpSpec\Listener;
+namespace Coduo\PhpSpec\DataProvider\Listener;
 
-use Coduo\PhpSpec\Annotation\Parser;
+use Coduo\PhpSpec\DataProvider\Annotation\Parser;
 use PhpSpec\Loader\Node\ExampleNode;
-use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use PhpSpec\Event\SpecificationEvent;
+use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 class DataProviderListener implements EventSubscriberInterface
 {
