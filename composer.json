@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "phpspec/phpspec": "2.0.*"
+        "phpspec/phpspec": "*"
     },
     "require-dev": {
         "behat/behat": "2.4.*@stable",

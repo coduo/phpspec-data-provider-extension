@@ -1,8 +1,8 @@
 <?php
 
-namespace Coduo\PhpSpec\Runner\Maintainer;
+namespace Coduo\PhpSpec\DataProvider\Runner\Maintainer;
 
-use Coduo\PhpSpec\Annotation\Parser;
+use Coduo\PhpSpec\DataProvider\Annotation\Parser;
 use PhpSpec\Loader\Node\ExampleNode;
 use PhpSpec\Runner\Maintainer\MaintainerInterface;
 use PhpSpec\SpecificationInterface;
