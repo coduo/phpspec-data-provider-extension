@@ -16,11 +16,11 @@ require: {
 
 ## Usage
 
-Enable exntesion in phpspec.yml file
+Enable extension in phpspec.yml file
 
 ```
 extensions:
-  - Coduo\PhpSpec\DataProviderExtension
+  - Coduo\PhpSpec\DataProvider\DataProviderExtension
 ```
 
 Write a spec:
