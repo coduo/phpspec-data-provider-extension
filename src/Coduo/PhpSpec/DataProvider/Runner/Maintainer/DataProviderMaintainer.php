@@ -34,12 +34,17 @@ class DataProviderMaintainer implements MaintainerInterface
     {
         $exampleNum = $this->getExampleNumber($example->getTitle());
         $providedData = $this->getDataFromProvider($example);
+
         if (! array_key_exists($exampleNum, $providedData)) {
             return ;
         }
 
         $data = $providedData[$exampleNum];
+
         foreach ($example->getFunctionReflection()->getParameters() as $position => $parameter) {
+            if (!isset($data[$position])) {
+                continue;
+            }
             $collaborators->set($parameter->getName(), $data[$position]);
         }
     }
@@ -85,7 +90,7 @@ class DataProviderMaintainer implements MaintainerInterface
 
         $exampleParamsCount = count($example->getFunctionReflection()->getParameters());
         foreach ($providedData as $dataRow) {
-            if (!is_array($dataRow) || count($dataRow) != $exampleParamsCount) {
+            if (!is_array($dataRow)) {
                 return false;
             }
         }
