@@ -1,6 +1,6 @@
 <?php
 
-namespace spec\Coduo\PhpSpec\Annotation\DataProvider;
+namespace spec\Coduo\PhpSpec\DataProvider\Annotation;
 
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
