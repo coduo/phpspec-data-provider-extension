@@ -1,0 +1,44 @@
+"http://purl.org/rss/1.0/modules/content/">
+<![CDATA[
+<p>While we are in the midst of the current <a href="https://www.defectivebydesign.org/end-DMCA-anti-circumvention-provisions">battle to end the DMCA's anti-circumvention provisions here in the US</a>, we can't lose sight of the broader global fight being waged via the secretive Trans-Pacific Partne
+]]>
+<![CDATA[
+rship (TPP) Strategic Partnership Agreement. If you aren't familiar with TPP, it is a multinational trade agreement being developed through a series of secret negotiations that are pushing a host of restrictions. From making the DMCA's anti-circumvention provisions global, to spreading the threat of software patents around the world, to extending copyright indefinitely, these secret negotiations present a plethora of threats to user freedom. </p> <p>Since our last <a href="https://www.fsf.org/blogs/licensing/the-sharks-move-in-lobbyists-pushing-forward-on-tpp-agreements">update on TPP</a>, the Obama administration and the Republican-led Congress have been maneuvering to put the TPP nightmare on a fast track. In essence, they want to ensure that whatever the outcome of the TPP negotiations, the TPP will be immediately etched into U.S. law without real debate. It is bad enough that while the negotiations are ongoing, we are forced to guess at their effects based only on leaked information. That Congress won't even be debating the outcome before implementing these terrible restrictions in US law moves this issue into the realm of the surreal. If TPP is fast-tracked, there will be no debate, no amendments, no chance to limit or remove the terrible things currently being debated in secret. </p> <p>We need to stop the Obama administration and his allies in the Republican-led Congress before they railroad us into a future run by secret lobbyists. A future where circumventing Digital Restrictions Management is a crime everywhere. A future where copyright extends beyond all right and reason in perpetuity. A future where software patents threaten the development of free software everywhere. We have to send a clear message to Congress and the administration, telling them that they must not fast track TPP. This is our stop: it's time to get off.</p> <p>This is what you can do to help derail TPP before it becomes a reality.</p> <ul> <li>If you are in the US, join EFF's action and <a href="https://act.eff.org/action/don-t-let-congress-fast-track-tpp">write to your representatives telling them not to fast track TPP</a>. EFF's action uses the free software tool <a href="https://github.com/EFForg/phantom-of-the-capitol">Phantom of the Capitol</a>.</li> <li>If you are outside the US, please contact your local representatives and let them know you oppose TPP.</li> <li>Support our work representing you in this area by <a href="https://my.fsf.org/join">becoming an FSF member</a> or making a <a href="https://donate.fsf.org">donation</a>.</li> </ul>
+]]>
+</content:encoded>
+<dc:publisher>No publisher</dc:publisher>
+<dc:creator/>
+<dc:rights/>
+<dc:date>2015-03-19T18:15:00Z</dc:date>
+<dc:type>Blog Entry</dc:type>
+</item>
+<item rdf:about="http://www.fsf.org/blogs/licensing/cc-by-4-0-and-cc-by-sa-4-0-added-to-our-list-of-free-licenses">
+<title>
+CC BY 4.0 and CC BY-SA 4.0 added to our list of free licenses
+</title>
+<link>
+http://www.fsf.org/blogs/licensing/cc-by-4-0-and-cc-by-sa-4-0-added-to-our-list-of-free-licenses
+</link>
+<description>
+The Creative Commons Attribution 4.0 International and Attribution-ShareAlike 4.0 International licenses are now on our list of free licenses for works of practical use besides software and documentation.
+</description>
+<content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<![CDATA[
+<p>We have updated our list of <a href="http://www.gnu.org/licenses/license-list.html">Various Licenses and Comments about Them</a> to include the <a href="http://creativecommons.org/licenses/by/4.0/legalcode">Creative Commons Attribution 4.0 International</a> license (CC BY 4.0) and the <a href="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons Attribution-ShareAlike 4.0 International</a> license (CC BY-SA 4.0). Both of these licenses are free licenses for works of practical use besides software and documentation.</p> <p>CC BY 4.0 is a noncopyleft license that is compatible with the GNU General Public License version 3.0 (GPLv3), meaning you can combine a CC BY 4.0 licensed work with a GPLv3 licensed work a larger work that is then released under the terms of GPLv3.</p> <p>Creative Commons has begun a <a href="https://wiki.creativecommons.org/ShareAlike_compatibility_process_and_criteria#Process_for_Compatibility_Evaluation">public discussion process for license compatibility evaluation</a> in order to determine whether or not GPLv3 should be added to the list of CC BY-SA 4.0 <a href="https://creativecommons.org/compatiblelicenses">Compatible Licenses</a>. If GPLv3 is added to this list, then CC BY-SA 4.0 will be deemed one-way compatible with GPLv3, which means that a person can adapt a CC BY-SA 4.0 licensed work and release the adapted version under the terms of GPLv3.</p> <p>Throughout the drafting process of both of these licenses, the FSF, with the help of the Software Freedom Law Center, provided feedback and suggestions to Creative Commons. We thank Creative Commons for giving us the opportunity to provide feedback and for incorporating many of our suggestions.</p> <p>The FSF will continue to provide feedback throughout the current compatibility evaluation discussion process. We will also make updates to our <a href="http://www.gnu.org/licenses/license-list.html">list</a> when have new information regarding compatibility between these CC licenses and other GNU licenses, such as GNU GPLv2 and the GNU Free Documentation License (GFDL).</p>
+]]>
+</content:encoded>
+<dc:publisher>No publisher</dc:publisher>
+<dc:creator/>
+<dc:rights/>
+<dc:date>2015-02-13T15:30:00Z</dc:date>
+<dc:type>Blog Entry</dc:type>
+</item>
+<item rdf:about="http://www.fsf.org/blogs/licensing/the-licensing-and-compliance-lab-interviews-rainey-reitman-of-the-electronic-frontier-foundation">
+<title>
+The Licensing and Compliance Lab interviews Rainey Reitman of the Electronic Frontier Foundation
+</title>
+<link>
+http://www.fsf.org/blogs/licensing/the-licensing-and-compliance-lab-interviews-rainey-reitman-of-the-electronic-frontier-foundation
+</link>
+<description>
+This is the latest installment of our Licensing and Compliance Lab's series on free software developers who choose GNU licenses for their works.
