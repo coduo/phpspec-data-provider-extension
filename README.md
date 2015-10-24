@@ -20,7 +20,7 @@ Enable extension in phpspec.yml file
 
 ```
 extensions:
-  - Coduo\PhpSpec\DataProvider\DataProviderExtension
+  - Coduo\PhpSpec\DataProviderExtension
 ```
 
 Write a spec:
