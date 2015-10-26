@@ -10,7 +10,7 @@ This extension allows you to create data providers for examples in specs.
 
 ```
 require: {
-   "coduo/phpspec-data-provider-extension": "dev-master"
+   "coduo/phpspec-data-provider-extension": "^1.0"
 }
 ```
 
