@@ -4,8 +4,6 @@
 
 This extension allows you to create data providers for examples in specs.
 
-> At the moment this extension is just a proof of concept, use it at own risk.
-
 ## Installation
 
 ```
