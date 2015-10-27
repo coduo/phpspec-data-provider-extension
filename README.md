@@ -6,10 +6,8 @@ This extension allows you to create data providers for examples in specs.
 
 ## Installation
 
-```
-require: {
-   "coduo/phpspec-data-provider-extension": "^1.0"
-}
+```shell
+composer require coduo/phpspec-data-provider-extension
 ```
 
 ## Usage
@@ -18,7 +16,7 @@ Enable extension in phpspec.yml file
 
 ```
 extensions:
-  - Coduo\PhpSpec\DataProviderExtension
+  - Coduo\PhpSpec\DataProvider\DataProviderExtension
 ```
 
 Write a spec:

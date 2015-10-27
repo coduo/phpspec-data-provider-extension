@@ -49,7 +49,7 @@ class PHPSpecContext implements SnippetAcceptingContext
     {
         $phpspecyml = <<<YML
 extensions:
-  - Coduo\PhpSpec\DataProviderExtension
+  - Coduo\PhpSpec\DataProvider\DataProviderExtension
 YML;
 
         file_put_contents($this->workDir.'phpspec.yml', $phpspecyml);
