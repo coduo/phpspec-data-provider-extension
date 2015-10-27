@@ -1,6 +1,6 @@
 <?php
 
-namespace Coduo\PhpSpec;
+namespace Coduo\PhpSpec\DataProvider;
 
 use Coduo\PhpSpec\DataProvider\Listener\DataProviderListener;
 use Coduo\PhpSpec\DataProvider\Runner\Maintainer\DataProviderMaintainer;
