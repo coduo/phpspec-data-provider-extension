@@ -13,7 +13,7 @@ class PHPSpecContext implements SnippetAcceptingContext
     private $workDir;
 
     /**
-     * @var ApplicationTester
+     * @var Console\ApplicationTester
      */
     private $applicationTester;
 
@@ -79,7 +79,7 @@ YML;
         $application->setAutoExit(false);
 
         $this->applicationTester = new Console\ApplicationTester($application);
-        $this->applicationTester->run('run --no-interaction -f pretty');
+        $this->applicationTester->run('run -f pretty');
     }
 
     /**

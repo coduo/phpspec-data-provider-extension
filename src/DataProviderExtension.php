@@ -14,12 +14,18 @@ class DataProviderExtension implements ExtensionInterface
      */
     public function load(ServiceContainer $container)
     {
-        $container->setShared('event_dispatcher.listeners.data_provider', function ($c) {
-            return new DataProviderListener();
-        });
+        $container->setShared(
+            'event_dispatcher.listeners.data_provider',
+            function ($c) {
+                return new DataProviderListener();
+            }
+        );
 
-        $container->set('runner.maintainers.data_provider', function ($c) {
-            return new DataProviderMaintainer();
-        });
+        $container->set(
+            'runner.maintainers.data_provider',
+            function ($c) {
+                return new DataProviderMaintainer();
+            }
+        );
     }
 }

@@ -1,8 +1,9 @@
 {
     "name": "coduo/phpspec-data-provider-extension",
     "type": "library",
+    "description": "PhpSpec extension that allows you to create data providers for examples in specs",
     "keywords": ["phpspec", "dataprovider", "extension", "coduo", "data", "provider"],
-    "license": "MIT", 
+    "license": "MIT",
     "authors": [
         {
             "name": "Norbert Orzechowicz",
@@ -18,18 +19,22 @@
         "phpspec/phpspec": "^2"
     },
     "require-dev": {
-        "behat/behat": "3.0.*",
-        "symfony/filesystem": "~2.3",
-        "symfony/process": "~2.3",
-        "symfony/console": "~2.3.2",
+        "behat/behat": "~3.0",
+        "symfony/filesystem": "~2.3|~3.0",
+        "symfony/process": "~2.3|~3.0",
+        "symfony/console": "~2.3.2|~3.0",
         "bossa/phpspec2-expect": "^1"
     },
     "autoload": {
-        "psr-0": { "Coduo\\PhpSpec": "src/"}
+        "psr-4": { "Coduo\\PhpSpec\\DataProvider\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": { "spec\\Coduo\\PhpSpec\\DataProvider\\": "spec/"}
     },
     "config": {
         "bin-dir": "bin"
     },
+    "prefer-stable": true,
     "extra": {
         "branch-alias": {
             "dev-master": "1.1-dev"
