@@ -1,5 +1,5 @@
 {
-    "name": "coduo/phpspec-data-provider-extension",
+    "name": "afurculita/phpspec-data-provider-extension",
     "type": "library",
     "description": "PhpSpec extension that allows you to create data providers for examples in specs",
     "keywords": ["phpspec", "dataprovider", "extension", "coduo", "data", "provider"],
