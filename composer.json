@@ -15,15 +15,15 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "phpspec/phpspec": "^2"
+        "php": ">=5.4.0"
     },
     "require-dev": {
         "behat/behat": "~3.0",
         "symfony/filesystem": "~2.3|~3.0",
         "symfony/process": "~2.3|~3.0",
         "symfony/console": "~2.3.2|~3.0",
-        "bossa/phpspec2-expect": "^1"
+        "bossa/phpspec2-expect": "^1",
+        "phpspec/phpspec": "^2"
     },
     "autoload": {
         "psr-4": { "Coduo\\PhpSpec\\DataProvider\\": "src/"}
