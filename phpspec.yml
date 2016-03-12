@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Coduo\PhpSpec\DataProvider
+        psr4_prefix: Coduo\PhpSpec\DataProvider
+        src_path: ./src

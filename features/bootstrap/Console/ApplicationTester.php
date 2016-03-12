@@ -3,11 +3,14 @@
 namespace Console;
 
 use Symfony\Component\Console\Application;
+use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\StringInput;
+use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Output\StreamOutput;
 
 /**
- * A console application tester heavily inspired by/proudly stolen from \Symfony\Component\Console\Tester\ApplicationTester.
+ * A console application tester heavily inspired by/proudly stolen from
+ * \Symfony\Component\Console\Tester\ApplicationTester.
  */
 class ApplicationTester
 {
