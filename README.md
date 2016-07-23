@@ -16,7 +16,7 @@ Enable extension in phpspec.yml file
 
 ```
 extensions:
-  - Coduo\PhpSpec\DataProvider\DataProviderExtension
+  Coduo\PhpSpec\DataProvider\DataProviderExtension: ~
 ```
 
 Write a spec:
