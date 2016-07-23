@@ -28,7 +28,7 @@ namespace spec\Coduo\ToString;
 
 use PhpSpec\ObjectBehavior;
 
-class StringSpec extends ObjectBehavior
+class StringLibrarySpec extends ObjectBehavior
 {
     /**
      *  @dataProvider positiveConversionExamples
@@ -58,7 +58,7 @@ Write class for spec:
 
 namespace Coduo\ToString;
 
-class String
+class StringLibrary
 {
     private $value;
 

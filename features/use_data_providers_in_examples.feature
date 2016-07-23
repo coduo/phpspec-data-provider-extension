@@ -4,7 +4,7 @@ Feature: Use data providers in examples
 
   Scenario: Positive match with Coduo matcher
     Given the PhpSpecDataProviderExtension is enabled
-    When I write a spec "spec/Coduo/ToString/StringSpec.php" with following code
+    When I write a spec "spec/Coduo/ToString/StringLibrarySpec.php" with following code
     """
 <?php
 
@@ -12,7 +12,7 @@ namespace spec\Coduo\ToString;
 
 use PhpSpec\ObjectBehavior;
 
-class StringSpec extends ObjectBehavior
+class StringLibrarySpec extends ObjectBehavior
 {
     /**
      *  @dataProvider positiveConversionExamples
@@ -34,13 +34,13 @@ class StringSpec extends ObjectBehavior
     }
 }
     """
-    And I write a class "src/Coduo/ToString/String.php" with following code
+    And I write a class "src/Coduo/ToString/StringLibrary.php" with following code
     """
 <?php
 
 namespace Coduo\ToString;
 
-class String
+class StringLibrary
 {
     private $value;
 
