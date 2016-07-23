@@ -88,7 +88,7 @@ class DateRangeSpec extends ObjectBehavior
     /**
      *  @dataProvider positiveConversionExamples
      */
-    function it_returns_a_formatted_date_range($inputValue, DateTime $date)
+    function it_returns_a_formatted_date_range($inputValue, $date)
     {
         $this->beConstructedWith($inputValue, $date);
 
