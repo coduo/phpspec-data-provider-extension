@@ -4,21 +4,22 @@ namespace Coduo\PhpSpec\DataProvider;
 
 use Coduo\PhpSpec\DataProvider\Listener\DataProviderListener;
 use Coduo\PhpSpec\DataProvider\Runner\Maintainer\DataProviderMaintainer;
-use PhpSpec\Extension\ExtensionInterface;
+use PhpSpec\Extension as PhpSpecExtension;
 use PhpSpec\ServiceContainer;
 
-class DataProviderExtension implements ExtensionInterface
+class DataProviderExtension implements PhpSpecExtension
 {
     /**
      * @param ServiceContainer $container
+     * @param array $params
      */
-    public function load(ServiceContainer $container)
+    public function load(ServiceContainer $container, array $params)
     {
-        $container->setShared('event_dispatcher.listeners.data_provider', function ($c) {
+        $container->define('event_dispatcher.listeners.data_provider', function ($c) {
             return new DataProviderListener();
         });
 
-        $container->set('runner.maintainers.data_provider', function ($c) {
+        $container->define('runner.maintainers.data_provider', function ($c) {
             return new DataProviderMaintainer();
         });
     }
