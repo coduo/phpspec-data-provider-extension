@@ -17,10 +17,10 @@ class DataProviderExtension implements PhpSpecExtension
     {
         $container->define('event_dispatcher.listeners.data_provider', function ($c) {
             return new DataProviderListener();
-        });
+        }, ['event_dispatcher.listeners']);
 
         $container->define('runner.maintainers.data_provider', function ($c) {
             return new DataProviderMaintainer();
-        });
+        }, ['runner.maintainers']);
     }
 }
