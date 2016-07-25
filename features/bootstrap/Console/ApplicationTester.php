@@ -3,7 +3,9 @@
 namespace Console;
 
 use Symfony\Component\Console\Application;
+use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\StringInput;
+use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Output\StreamOutput;
 
 /**
@@ -58,7 +60,7 @@ class ApplicationTester
         $inputStream = $this->getInputStream();
         rewind($inputStream);
         $this->application->getHelperSet()
-            ->get('dialog')
+            ->get('question')
             ->setInputStream($inputStream);
 
         $this->result = $this->application->run($this->input, $this->output);
