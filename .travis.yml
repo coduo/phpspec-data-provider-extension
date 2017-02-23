@@ -12,7 +12,7 @@ env:
 matrix:
    include:
      - php: 5.4
-       env: COMPOSER_OPTIONS='update --prefer-source'
+       env: COMPOSER_OPTIONS='update --prefer-lowest --prefer-source'
 
 before_install:
   - composer self-update

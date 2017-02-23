@@ -90,11 +90,9 @@ class DateRangeSpec extends ObjectBehavior
     /**
      *  @dataProvider positiveConversionExamples
      */
-    function it_returns_a_formatted_date_range($inputValue, DateTime $date)
+    function it_returns_a_formatted_date_range(DateTime $inputValue, DateTime $date)
     {
         $this->beConstructedWith($inputValue, $date);
-
-        $date->format('Ymd')->willReturn('2035-10-28');
 
         $this->getFormattedRange()->shouldBeLike('1985-10-26 - 2035-10-28');
     }
@@ -102,7 +100,10 @@ class DateRangeSpec extends ObjectBehavior
     public function positiveConversionExamples()
     {
         return array(
-            array(new \DateTime('1985-10-26')),
+            array(
+              new \DateTime('1985-10-26'),
+              new \DateTime('2035-10-28')
+            )
         );
     }
 }
@@ -126,7 +127,7 @@ class DateRange
 
     public function getFormattedRange()
     {
-        return $this->start->format('Y-m-d') . ' - ' . $this->end->format('Ymd');
+        return $this->start->format('Y-m-d') . ' - ' . $this->end->format('Y-m-d');
     }
 }
     """

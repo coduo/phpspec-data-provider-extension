@@ -1,5 +1,5 @@
 {
-    "name": "afurculita/phpspec-data-provider-extension",
+    "name": "coduo/phpspec-data-provider-extension",
     "type": "library",
     "description": "PhpSpec extension that allows you to create data providers for examples in specs",
     "keywords": ["phpspec", "dataprovider", "extension", "coduo", "data", "provider"],
@@ -15,15 +15,15 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0"
+        "php": ">=5.4.0",
+        "phpspec/phpspec": "^2"
     },
     "require-dev": {
         "behat/behat": "~3.0",
         "symfony/filesystem": "~2.3|~3.0",
         "symfony/process": "~2.3|~3.0",
         "symfony/console": "~2.3.2|~3.0",
-        "bossa/phpspec2-expect": "^1",
-        "phpspec/phpspec": "^2"
+        "bossa/phpspec2-expect": "^1"
     },
     "autoload": {
         "psr-4": { "Coduo\\PhpSpec\\DataProvider\\": "src/"}
@@ -34,7 +34,6 @@
     "config": {
         "bin-dir": "bin"
     },
-    "prefer-stable": true,
     "extra": {
         "branch-alias": {
             "dev-master": "1.1-dev"
